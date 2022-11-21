@@ -1,0 +1,112 @@
+
+body{
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    /* background: #a2d2; */
+    background: linear-gradient(#EFB0C9, lightblue);
+    color: #a2d2f0;
+
+    /*display: flex;
+      flex-direction: column;
+      align-items: center;
+    */
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 2px black;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 4px 10px;
+    border-radius:4px;
+    
+    margin: 5px 0 10px 0;
+    
+}
+
+ #bday-date {
+    background: #EFB0C9;
+    padding: 4px 10px;
+    border-radius: 5px;
+    margin:0;
+}
+
+#pic-img {
+    
+    width:140px;
+    border-radius: 50%;
+    border: 5px solid #a2d2ff;
+} 
+
+#header{
+    display:flex;
+    flex-direction:column;
+    /* justify-content:center; not needed here cos align items controls the centering since flex direction is column*/
+    align-items:center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-title2 {
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-gif {
+    margin: 0 auto;/*we used this cos divs are display block so not affected by text-align in body cos it applies to only display inline elements*/
+    width:400px;
+    height:400px;
+    background-image:url("gift2.png");
+    background-size:cover;
+    /* background-position: center; */
+    border: 6px solid #a2d2ff;
+    border-radius: 8px;
+    /*we set this up to be able to do the hover effect instead of doing
+    using img src selement in html*/
+}
+
+#gift-gif-bday:hover{
+    background-image: url("gift.webp");
+}
+
+#gift-gif-excited:hover {
+    background-image: url("carlton.webp");
+}
+
+#gift-gif-genius:hover {
+    background-image: url("genius.webp");
+}
+
+#gift-gif-badass:hover {
+    background-image: url("badass.webp");
+}
+
+/* #gift-gif-kiss{
+    height:200px;
+} */
+
+#gift-gif-kiss:hover {
+    
+    background-image: url("love.webp");
+}
+
+#footer{
+    width:400px;
+    font-style: italic;
+    margin:40px auto;
+}
+a{
+    color: #a2d2f0;
+}
